@@ -33,9 +33,10 @@ class StreamForm extends React.Component {
                 className='ui form error'
             >
                 <Field 
-                name='title' 
-                component={this.renderInput} 
-                label='Enter Title' />
+                    name='title' 
+                    component={this.renderInput} 
+                    label='Enter Title' 
+                />
                 <Field 
                     name='description' 
                     component={this.renderInput} 
